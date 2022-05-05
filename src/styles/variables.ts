@@ -8,12 +8,15 @@ export const variables = {
     secondaryDark: 'hsl(218, 44%, 22%)',
   },
   fontSize: {
+    large: `${baseFontSize * 1.45}px`,
     medium: `${baseFontSize}px`,
-    small: `${baseFontSize * .75}px`,
-    smaller: `${baseFontSize * .5}px`,
+    small: `${baseFontSize * .73}px`,
   },
   fontFamily: {
     regular: 'Outfit',
+  },
+  border: {
+    radius: '15px',
   },
   breakpoints: {
     desktop: '1440px',
